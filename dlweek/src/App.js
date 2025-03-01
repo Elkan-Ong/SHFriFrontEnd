@@ -102,7 +102,7 @@ function App() {
           </form>
           {percentage !== null && (
               <div>
-                <h2>Percentage:</h2>
+                <h2>Likelihood of being fake news:</h2>
                 <p>{percentage.toFixed(2) * 100}%</p>
               </div>
           )}
